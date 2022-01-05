@@ -28,16 +28,27 @@ header{
 }
 
 
-
+.presentation1{
+    background-color: #1C1A19;
+    margin: 0 0 0 0;
+}
 
 
 .presentation{
-    
+    margin: 0 24px 0 24px;
     height: 590px;
-    background-color: #1C1A19;
+    background-color: crimson;
+
+    
     background-image: url("images/illustration-header-mobile.svg");
     background-repeat: no-repeat;
-  
+    background-position: 100% 100%;
    
+}
+
+
+.icons{
+    background-color: cornsilk;
+    display: flex;
 }
 }
