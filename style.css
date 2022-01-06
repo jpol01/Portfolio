@@ -16,7 +16,7 @@
     justify-content: space-between;
   }
 
-  header > h2 {
+  .company {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 18px;
