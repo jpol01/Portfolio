@@ -2,9 +2,9 @@
 
 # Setup and Mobile Version Skeleton
 
-> One paragraph statement about the project.
+> Mobile version of the Portfolio.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/web.png)
 
 Additional description about the project and its features.
 
@@ -21,17 +21,16 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**This website is a mobile version. To get the best experience the min-width must to be 375px and a hegiht of 600px or more**
 
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@jpol01](https://github.com/jpol01)
+- Twitter: [@Jpol1902](https://twitter.com/Jpol1902)
+
 
 
 
