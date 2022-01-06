@@ -1,59 +1,38 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Setup and Mobile Version Skeleton
 
-> One paragraph statement about the project.
+> Mobile version of the Portfolio, must include 2 sections: the header and the headline.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/web.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Html 5
+- Css 3
+- Github as the version control system
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]( https://jpol01.github.io/Portfolio/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+**This website is a mobile version. To get the best experience the min-width must to be 375px and a hegiht of 600px or more**
 
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@jpol01](https://github.com/jpol01)
+- Twitter: [@Jpol1902](https://twitter.com/Jpol1902)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
 
 ## 🤝 Contributing
 
