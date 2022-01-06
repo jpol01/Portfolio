@@ -2,7 +2,7 @@
 
 # Setup and Mobile Version Skeleton
 
-> Mobile version of the Portfolio.
+> Mobile version of the Portfolio, must include 2 sections: the header and the headline.
 
 ![screenshot](./images/web.png)
 
@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]( https://jpol01.github.io/Portfolio/)
 
 
 ## Getting Started
