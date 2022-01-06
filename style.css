@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   background-origin: border-box;
-
   width: auto;
 }
 
@@ -22,6 +21,12 @@
     font-weight: bold;
     font-size: 18px;
     color: #fff;
+  }
+
+  i {
+    color: #dbd8d7;
+    font-size: 23px;
+    height: 25px;
   }
 
   header > i {
@@ -44,12 +49,6 @@
     background-image: url("images/illustration-header-mobile.svg");
     background-repeat: no-repeat;
     background-position: 100% 100%;
-  }
-
-  i {
-    color: #dbd8d7;
-    font-size: 23px;
-    height: 25px;
   }
 
   .presentation > h2 {
