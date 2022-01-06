@@ -79,7 +79,7 @@
     display: flex;
   }
 
-  .icons > div {
+  .icons > li {
     margin: 0 20px 0 0;
   }
 }
