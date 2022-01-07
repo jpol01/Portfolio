@@ -6,54 +6,77 @@
   height: auto;
 }
 
+header {
+  margin: 0 24px 0 24px;
+  padding: 10px 0 12px 0;
+  background-color: #3c3a39;
+  display: flex;
+  justify-content: space-between;
+}
+.company {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+}
 
+i {
+  color: #dbd8d7;
+  font-size: 23px;
+  height: 25px;
+}
 
+header > i {
+  color: #fff;
+}
 
+.header1 {
+  background-color: #3c3a39;
+}
 
+.presentation1 {
+  background-color: #1c1a19;
+}
 
+.presentation {
+  height: 530px;
+  margin: 0 0 0 24px;
+  padding: 120px 0 0 0;
+  background-color: #1c1a19;
+  background-image: url("images/illustration-header-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
 
+.presentation > h1 {
+  font-family: "Crete Round", serif;
+  font-weight: normal;
+  font-size: 56px;
+  color: #ff6b00;
+  margin: 0 0 12px 0;
+}
 
+.presentation > h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: #fff5e1;
+  margin: 0 0 12px 0;
+}
 
+.presentation > p {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #fff;
+  margin: 0 0 12px 0;
+}
 
+.icons {
+  display: flex;
+  list-style: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.icons > li {
+  margin: 0 20px 0 0;
+}
