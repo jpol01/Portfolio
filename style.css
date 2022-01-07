@@ -105,12 +105,18 @@
 
   .second-main-card-container {
     display: grid;
+    grid-template-columns: 100% ;
+    grid-template-rows: 100% ;
     margin: 0 24px 0 24px;
+
+    
+   
     
   }
 
   .card1 {
-    height: 590px;
+    height: 500px;
+    /* border: #ff6b00 solid 2px; */
   }
 
   .card1-img-container {
@@ -143,7 +149,34 @@
   }
 
   .technologies-card1 > li {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color:#091E42;
+    
+    border: 1px solid #8993A4;
+    padding: 10px 12px;
 
-    margin: 22px 24px 22px 0;
+    margin: 0 12px 0 0;
+  }
+
+  .button-card1 {
+
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    color:#FFFFFF;
+    border: none;
+
+    width: 124px;
+    height: 48px;
+    margin: 24px 0 0 0;
+    background-color: #FF6B00;
+
+
   }
 }
