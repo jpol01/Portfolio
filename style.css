@@ -6,177 +6,54 @@
   height: auto;
 }
 
-@media screen and (max-width: 480px) {
-  /* Header */
-
-  header {
-    margin: 0 24px 0 24px;
-    padding: 10px 0 12px 0;
-    background-color: #3c3a39;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .company {
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    color: #fff;
-  }
-
-  i {
-    color: #dbd8d7;
-    font-size: 23px;
-    height: 25px;
-  }
-
-  header > i {
-    color: #fff;
-  }
-
-  .header1 {
-    background-color: #3c3a39;
-  }
-
-  .presentation1 {
-    background-color: #1c1a19;
-  }
-
-  .presentation {
-    height: 530px;
-    margin: 0 0 0 24px;
-    padding: 120px 0 0 0;
-    background-color: #1c1a19;
-    background-image: url("images/illustration-header-mobile.svg");
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
-  }
-
-  .presentation > h1 {
-    font-family: "Crete Round", serif;
-    font-weight: normal;
-    font-size: 56px;
-    color: #ff6b00;
-    margin: 0 0 12px 0;
-  }
-
-  .presentation > h4 {
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    color: #fff5e1;
-    margin: 0 0 12px 0;
-  }
-
-  .presentation > p {
-    font-family: "Poppins", sans-serif;
-    font-weight: normal;
-    font-size: 16px;
-    color: #fff;
-    margin: 0 0 12px 0;
-  }
-
-  .icons {
-    display: flex;
-    list-style: none;
-  }
-
-  .icons > li {
-    margin: 0 20px 0 0;
-  }
-  /* adding works start here */
-
-  .title-container {
-    margin: 0 24px 0 24px;
-    padding: 120px 0 104px 0;
-  }
-
-  .internal-title  {
-    font-family: "Crete Round", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 52px;
-    color: #1C1A19;
-    margin: 0 0 50px 0;
-  }
-
-  /* Second card container */
-
-  .second-main-card-container {
-    display: grid;
-    grid-template-columns: 100% ;
-    grid-template-rows: 100% ;
-    margin: 0 24px 0 24px;
-
-    
-   
-    
-  }
-
-  .card1 {
-    height: 500px;
-    /* border: #ff6b00 solid 2px; */
-  }
-
-  .card1-img-container {
-    margin: 0 0 22px 0 ;
-  }
-
-  .card1-h3 {
-    font-family: "Crete Round", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 44px;
-    color:#091E42;
-    margin: 0 0 12px 0;
-  }
-
-  .card1-p {
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color:#091E42;
-    margin: 0 0 12px 0;
-  }
-
-  .technologies-card1 {
-    list-style: none;
-    display: flex;
-  }
-
-  .technologies-card1 > li {
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color:#091E42;
-    
-    border: 1px solid #8993A4;
-    padding: 10px 12px;
-
-    margin: 0 12px 0 0;
-  }
-
-  .button-card1 {
-
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 24px;
-    color:#FFFFFF;
-    border: none;
-
-    width: 124px;
-    height: 48px;
-    margin: 24px 0 0 0;
-    background-color: #FF6B00;
 
 
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
