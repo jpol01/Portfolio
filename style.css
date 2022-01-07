@@ -82,37 +82,35 @@ header > i {
 }
 
 @media screen and (max-width: 480px) {
-  
   /* Previous Wroks */
-  
+
   .container-works {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr repeat(5,600px);
-
+    grid-template-rows: 1fr repeat(11, 600px);
   }
 
   .title-container {
     margin: 0 24px 0 24px;
     padding: 120px 0 80px 0;
 
-    border: black dashed 2px;    
+    border: black dashed 2px;
   }
 
-  .internal-title  {
+  .internal-title {
     font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
     line-height: 52px;
-    color: #1C1A19;
+    color: #1c1a19;
     margin: 0 0 25px 0;
   }
 
   .card-row1 {
     border: blue 2px dashed;
-    
+
     margin: 0 24px 0 24px;
   }
 
@@ -122,7 +120,7 @@ header > i {
     font-weight: 400;
     font-size: 32px;
     line-height: 44px;
-    color:#091E42;
+    color: #091e42;
     margin: 0 0 12px 0;
   }
 
@@ -132,7 +130,7 @@ header > i {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    color:#091E42;
+    color: #091e42;
     margin: 0 0 12px 0;
   }
 
@@ -147,29 +145,98 @@ header > i {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color:#091E42;
-    
-    border: 1px solid #8993A4;
+    color: #091e42;
+
+    border: 1px solid #8993a4;
     padding: 10px 12px;
 
     margin: 0 12px 0 0;
   }
 
   .button-card1 {
-
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 17px;
     line-height: 24px;
-    color:#FFFFFF;
+    color: #ffffff;
     border: none;
 
     width: 124px;
     height: 48px;
     margin: 24px 0 0 0;
-    background-color: #FF6B00;
+    background-color: #ff6b00;
+  }
 
+  .card-row2 {
+    height: 410px;
+    border: 2px dashed red;
 
+    margin: 0 24px 0 24px;
+    background-image: url("images/card-image/u-image-card.svg");
+    background-repeat: no-repeat;
+  }
+
+  .u-card-h3 {
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    margin: 84px 16px 0 16px;
+  }
+
+  .u-card-p {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin: 12px 16px 0 16px;
+  }
+
+  .u-card-technologies {
+    list-style: none;
+    margin: 12px 0 0 16px;
+
+    display: flex;
+  }
+
+  .u-card-technologies > li {
+    padding: 10px 12px;
+    margin: 0 12px 0 0;
+    background-color: rgba(255, 255, 255, 0.24);
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+  .u-button-card {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    border: none;
+
+    width: 327px;
+    height: 48px;
+    margin: 24px 0 0 0;
+    background-color: #ff6b00;
+  }
+
+  .card-row3 {
+    border: rosybrown dashed solid 2px;
+    margin: 0 0 0 0 ;
+  }
+
+  .u-card-h3 {
+    border: solid 2px dashed pink;
   }
 }
