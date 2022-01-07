@@ -80,3 +80,39 @@ header > i {
 .icons > li {
   margin: 0 20px 0 0;
 }
+
+@media screen and (max-width: 480px) {
+  
+  /* Previous Wroks */
+  
+  .container-works {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6,1fr);
+
+    border: dashed red 2px;
+  }
+
+  .division {
+    border: dashed pink;
+    
+  }
+
+  .title-container {
+    margin: 0 24px 0 24px;
+    padding: 120px 0 104px 0;
+
+    border: black dashed 2px;
+  }
+
+  .internal-title  {
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 52px;
+    color: #1C1A19;
+    margin: 0 0 50px 0;
+  }
+}
