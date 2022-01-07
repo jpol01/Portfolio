@@ -91,17 +91,11 @@ header > i {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr repeat(5,600px);
 
-    border: dashed red 2px;
-  }
-
-  .division {
-    border: dashed pink;
-    
   }
 
   .title-container {
     margin: 0 24px 0 24px;
-    padding: 120px 0 104px 0;
+    padding: 120px 0 80px 0;
 
     border: black dashed 2px;
   }
@@ -113,7 +107,7 @@ header > i {
     font-size: 40px;
     line-height: 52px;
     color: #1C1A19;
-    margin: 0 0 50px 0;
+    margin: 0 0 25px 0;
   }
 
   .card-row1 {
