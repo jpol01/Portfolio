@@ -3,6 +3,7 @@
   padding: 0;
   background-origin: border-box;
   width: auto;
+  height: auto;
 }
 
 @media screen and (max-width: 480px) {
@@ -82,5 +83,23 @@
 
   .icons > li {
     margin: 0 20px 0 0;
+  }
+  /* adding works start here */
+
+  .title-container {
+    margin: 0 24px 0 24px;
+    padding: 120px 0 104px 0;
+  }
+
+  .internal-title  {
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 52px;
+    color: #1C1A19;
+    margin: 0 0 24px 0 ;
+
+    
   }
 }
