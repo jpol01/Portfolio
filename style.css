@@ -43,7 +43,7 @@
   }
 
   .presentation {
-    height: 540px;
+    height: 530px;
     margin: 0 0 0 24px;
     padding: 120px 0 0 0;
     background-color: #1c1a19;
@@ -101,6 +101,8 @@
     margin: 0 0 50px 0;
   }
 
+  /* Second card container */
+
   .second-main-card-container {
     display: grid;
     margin: 0 24px 0 24px;
@@ -109,6 +111,30 @@
 
   .card1 {
     height: 590px;
+  }
+
+  .card1-img-container {
+    margin: 0 0 22px 0 ;
+  }
+
+  .card1-h3 {
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color:#091E42;
+    margin: 0 0 12px 0;
+  }
+
+  .card1-p {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color:#091E42;
+    margin: 0 0 12px 0;
   }
 
   .technologies-card1 {
