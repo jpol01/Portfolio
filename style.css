@@ -89,7 +89,7 @@ header > i {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6,1fr);
+    grid-template-rows: 1fr repeat(5,600px);
 
     border: dashed red 2px;
   }
@@ -114,5 +114,68 @@ header > i {
     line-height: 52px;
     color: #1C1A19;
     margin: 0 0 50px 0;
+  }
+
+  .card-row1 {
+    border: blue 2px dashed;
+    
+    margin: 0 24px 0 24px;
+  }
+
+  .card1-h3 {
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color:#091E42;
+    margin: 0 0 12px 0;
+  }
+
+  .card1-p {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color:#091E42;
+    margin: 0 0 12px 0;
+  }
+
+  .technologies-card1 {
+    list-style: none;
+    display: flex;
+  }
+
+  .technologies-card1 > li {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color:#091E42;
+    
+    border: 1px solid #8993A4;
+    padding: 10px 12px;
+
+    margin: 0 12px 0 0;
+  }
+
+  .button-card1 {
+
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 24px;
+    color:#FFFFFF;
+    border: none;
+
+    width: 124px;
+    height: 48px;
+    margin: 24px 0 0 0;
+    background-color: #FF6B00;
+
+
   }
 }
