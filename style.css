@@ -85,7 +85,7 @@ header > i {
 @media screen and (max-width: 480px) {
   /* Previous Wroks */
 
-  .container-works {
+  .container-mega {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
@@ -163,6 +163,7 @@ header > i {
   }
 
   .card-row2 {
+    padding: 1px 0 0 0;
     height: 410px;
     margin: 24px 24px 0 24px;
     background-image: url("images/card-image/u-image-card.svg");
@@ -222,6 +223,7 @@ header > i {
   }
 
   .card-row3 {
+    padding: 1px 0 0 0;
     height: 410px;
     margin: 24px 24px 0 24px;
     background-image: url("images/card-image/u-image-card.svg");
@@ -229,6 +231,7 @@ header > i {
   }
 
   .card-row4 {
+    padding: 1px 0 0 0;
     height: 410px;
     margin: 24px 24px 0 24px;
     background-image: url("images/card-image/u-image-card.svg");
@@ -236,6 +239,7 @@ header > i {
   }
 
   .card-row5 {
+    padding: 1px 0 0 0;
     height: 410px;
     margin: 24px 24px 0 24px;
     background-image: url("images/card-image/u-image-card.svg");
@@ -243,6 +247,7 @@ header > i {
   }
 
   .card-row6 {
+    padding: 1px 0 0 0;
     height: 410px;
     margin: 24px 24px 0 24px;
     background-image: url("images/card-image/u-image-card.svg");
@@ -250,6 +255,7 @@ header > i {
   }
 
   .card-row7 {
+    padding: 1px 0 0 0;
     height: 410px;
     margin: 24px 24px 0 24px;
     background-image: url("images/card-image/u-image-card.svg");
@@ -257,6 +263,7 @@ header > i {
   }
 
   .card-row8 {
+    padding: 1px 0 0 0;
     height: 410px;
     margin: 24px 24px 0 24px;
     background-image: url("images/card-image/u-image-card.svg");
@@ -264,7 +271,7 @@ header > i {
   }
 
   .about-me-main {
-    height: 2150px;
+    height: 2280px;
     background-color: #1c1a19;
     margin: 120px 0 0 0;
   }
