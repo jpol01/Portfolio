@@ -4,7 +4,8 @@
 
 #  Mobile Version (Adding Previous Works and the About me section)
 
-![screenshot](./images/mobile1.mp4)
+
+![Alt Text](https://media.giphy.com/media/jxiEKqz3coq63bUoDk/giphy.gif)
 
 
 Additional description about the project and its features.
