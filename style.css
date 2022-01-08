@@ -13,6 +13,7 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
 .company {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -212,7 +213,7 @@ header > i {
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
-    color: #fff;
+    color: #ffff;
     border: none;
     width: 327px;
     height: 48px;
@@ -264,12 +265,12 @@ header > i {
 
   .about-me-main {
     height: 2150px;
-    background-color: #1C1A19;
-    margin: 120px 0 0 0 ;
+    background-color: #1c1a19;
+    margin: 120px 0 0 0;
   }
 
   .about-me-introduction {
-    margin: 0 24px 0 24px ;
+    margin: 0 24px 0 24px;
     height: 550px;
     background-image: url("images/about-me-image.svg");
     background-repeat: no-repeat;
@@ -282,8 +283,8 @@ header > i {
     font-weight: normal;
     font-size: 72px;
     line-height: 88px;
-    color: #FF6B00;
-    margin: 120px 0 0 0 ;
+    color: #ff6b00;
+    margin: 120px 0 0 0;
   }
 
   .about-me-p {
@@ -292,7 +293,7 @@ header > i {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    color: #F4F5F7;
+    color: #f4f5f7;
     margin: 24px 0 24px 0;
   }
 
@@ -344,7 +345,7 @@ header > i {
     color: #fff;
   }
 
-  .about-me-languajes{
+  .about-me-languajes {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -354,36 +355,35 @@ header > i {
     margin: 32px 0 0 0;
   }
 
-  .about-me-frameworks{
+  .about-me-frameworks {
     display: flex;
     flex-direction: column;
     text-align: center;
     margin: 32px 0 32px 0;
   }
 
-  .about-me-frameworks > ul > li{
+  .about-me-frameworks > ul > li {
     margin: 32px 0 0 0;
   }
 
-  .about-me-skills{
+  .about-me-skills {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-  
-  .about-me-skills > ul > li{
+
+  .about-me-skills > ul > li {
     margin: 32px 0 0 0;
   }
 
   button:hover {
-    color:#F55800 ;
-    background-color: #FFF5E1;
-    border: 1px solid #F55800;
+    color: #f55800;
+    background-color: #fff5e1;
+    border: 1px solid #f55800;
   }
 
   button:active {
-    color:#F4F1F0;
-    background-color: #E05304;
-    
+    color: #f4f1f0;
+    background-color: #e05304;
   }
 }
