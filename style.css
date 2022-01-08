@@ -39,7 +39,7 @@ header > i {
 }
 
 .presentation {
-  height: 530px;
+  height: 550px;
   margin: 0 0 0 24px;
   padding: 120px 0 0 0;
   background-color: #1c1a19;
@@ -88,14 +88,12 @@ header > i {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr repeat(11, 1fr);
+    grid-template-rows: 1fr repeat(9, 1fr);
   }
 
   .title-container {
     margin: 0 24px 0 24px;
     padding: 120px 0 80px 0;
-
-    border: black dashed 2px;
   }
 
   .internal-title {
@@ -109,8 +107,6 @@ header > i {
   }
 
   .card-row1 {
-    border: blue 2px dashed;
-
     margin: 0 24px 0 24px;
   }
 
@@ -146,10 +142,8 @@ header > i {
     font-size: 15px;
     line-height: 20px;
     color: #091e42;
-
     border: 1px solid #8993a4;
     padding: 10px 12px;
-
     margin: 0 12px 0 0;
   }
 
@@ -161,7 +155,6 @@ header > i {
     line-height: 24px;
     color: #ffffff;
     border: none;
-
     width: 124px;
     height: 48px;
     margin: 24px 0 0 0;
@@ -170,8 +163,6 @@ header > i {
 
   .card-row2 {
     height: 410px;
-    border: 2px dashed red;
-
     margin: 24px 24px 0 24px;
     background-image: url("images/card-image/u-image-card.svg");
     background-repeat: no-repeat;
@@ -200,7 +191,6 @@ header > i {
   .u-card-technologies {
     list-style: none;
     margin: 12px 0 0 16px;
-
     display: flex;
   }
 
@@ -224,7 +214,6 @@ header > i {
     line-height: 24px;
     color: #fff;
     border: none;
-
     width: 327px;
     height: 48px;
     margin: 24px 0 0 0;
@@ -233,8 +222,6 @@ header > i {
 
   .card-row3 {
     height: 410px;
-    border: 2px dashed red;
-
     margin: 24px 24px 0 24px;
     background-image: url("images/card-image/u-image-card.svg");
     background-repeat: no-repeat;
@@ -242,8 +229,6 @@ header > i {
 
   .card-row4 {
     height: 410px;
-    border: 2px dashed red;
-
     margin: 24px 24px 0 24px;
     background-image: url("images/card-image/u-image-card.svg");
     background-repeat: no-repeat;
@@ -251,8 +236,6 @@ header > i {
 
   .card-row5 {
     height: 410px;
-    border: 2px dashed red;
-
     margin: 24px 24px 0 24px;
     background-image: url("images/card-image/u-image-card.svg");
     background-repeat: no-repeat;
@@ -260,8 +243,6 @@ header > i {
 
   .card-row6 {
     height: 410px;
-    border: 2px dashed red;
-
     margin: 24px 24px 0 24px;
     background-image: url("images/card-image/u-image-card.svg");
     background-repeat: no-repeat;
@@ -269,8 +250,6 @@ header > i {
 
   .card-row7 {
     height: 410px;
-    border: 2px dashed red;
-
     margin: 24px 24px 0 24px;
     background-image: url("images/card-image/u-image-card.svg");
     background-repeat: no-repeat;
@@ -278,35 +257,23 @@ header > i {
 
   .card-row8 {
     height: 410px;
-    border: 2px dashed red;
-
     margin: 24px 24px 0 24px;
     background-image: url("images/card-image/u-image-card.svg");
     background-repeat: no-repeat;
   }
 
   .about-me-main {
-    height: 1910px;
+    height: 2150px;
     background-color: #1C1A19;
     margin: 120px 0 0 0 ;
-
-    border: 2px pink dashed;
-
   }
 
-  .about-me-introduction{
-    border: 2px red dashed;
+  .about-me-introduction {
     margin: 0 24px 0 24px ;
-    
-
-
-    height: 670px;
+    height: 550px;
     background-image: url("images/about-me-image.svg");
     background-repeat: no-repeat;
     background-position: 100% 100%;
-    
-
-   
   }
 
   .about-me-h3 {
@@ -337,7 +304,6 @@ header > i {
     line-height: 24px;
     color: #fff;
     border: none;
-
     width: 161px;
     height: 48px;
     margin: 24px 0 0 0;
@@ -349,40 +315,66 @@ header > i {
     height: 1px;
     width: 327px;
     margin: 209px 0 0 0;
-
   }
 
   .about-me-technologies {
-    border: dashed 2px seagreen;
-
     margin: 136px 24px 0 24px;
-    height: 600px;
-    
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .about-me-technologies > ul > li {
+  .about-me-internal-title {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+  }
+
+  .about-me-internal-list {
     list-style: none;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 43px;
+    color: #fff;
   }
 
+  .about-me-languajes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 
-  
+  .about-me-languajes > ul > li {
+    margin: 32px 0 0 0;
+  }
 
-.emoji {
-  font-size: 18px;
-  
-  color: transparent;
-  text-shadow: 0 0 0 #FF6B00;
-}
+  .about-me-frameworks{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 32px 0 32px 0;
+  }
 
-.about-title-skill {
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-}
+  .about-me-frameworks > ul > li{
+    margin: 32px 0 0 0;
+  }
+
+  .about-me-skills{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
   
+  .about-me-skills > ul > li{
+    margin: 32px 0 0 0;
+  }
+
 }
 
 
