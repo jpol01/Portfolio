@@ -1,10 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Setup and Mobile Version Skeleton
+>Video showing the figma model, a comparison and the actual work done for this project
 
-> Mobile version of the Portfolio, must include 2 sections: the header and the headline.
+#  Mobile Version (Adding Previous Works and the About me section)
 
-![screenshot](./images/web.png)
+
+![Alt Text](https://media.giphy.com/media/jxiEKqz3coq63bUoDk/giphy.gif)
+
 
 Additional description about the project and its features.
 
