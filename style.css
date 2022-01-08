@@ -88,7 +88,7 @@ header > i {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr repeat(11, 600px);
+    grid-template-rows: 1fr repeat(11, 1fr);
   }
 
   .title-container {
@@ -172,7 +172,7 @@ header > i {
     height: 410px;
     border: 2px dashed red;
 
-    margin: 0 24px 0 24px;
+    margin: 24px 24px 0 24px;
     background-image: url("images/card-image/u-image-card.svg");
     background-repeat: no-repeat;
   }
@@ -232,11 +232,157 @@ header > i {
   }
 
   .card-row3 {
-    border: rosybrown dashed solid 2px;
-    margin: 0 0 0 0 ;
+    height: 410px;
+    border: 2px dashed red;
+
+    margin: 24px 24px 0 24px;
+    background-image: url("images/card-image/u-image-card.svg");
+    background-repeat: no-repeat;
   }
 
-  .u-card-h3 {
-    border: solid 2px dashed pink;
+  .card-row4 {
+    height: 410px;
+    border: 2px dashed red;
+
+    margin: 24px 24px 0 24px;
+    background-image: url("images/card-image/u-image-card.svg");
+    background-repeat: no-repeat;
   }
+
+  .card-row5 {
+    height: 410px;
+    border: 2px dashed red;
+
+    margin: 24px 24px 0 24px;
+    background-image: url("images/card-image/u-image-card.svg");
+    background-repeat: no-repeat;
+  }
+
+  .card-row6 {
+    height: 410px;
+    border: 2px dashed red;
+
+    margin: 24px 24px 0 24px;
+    background-image: url("images/card-image/u-image-card.svg");
+    background-repeat: no-repeat;
+  }
+
+  .card-row7 {
+    height: 410px;
+    border: 2px dashed red;
+
+    margin: 24px 24px 0 24px;
+    background-image: url("images/card-image/u-image-card.svg");
+    background-repeat: no-repeat;
+  }
+
+  .card-row8 {
+    height: 410px;
+    border: 2px dashed red;
+
+    margin: 24px 24px 0 24px;
+    background-image: url("images/card-image/u-image-card.svg");
+    background-repeat: no-repeat;
+  }
+
+  .about-me-main {
+    height: 1910px;
+    background-color: #1C1A19;
+    margin: 120px 0 0 0 ;
+
+    border: 2px pink dashed;
+
+  }
+
+  .about-me-introduction{
+    border: 2px red dashed;
+    margin: 0 24px 0 24px ;
+    
+
+
+    height: 670px;
+    background-image: url("images/about-me-image.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    
+
+   
+  }
+
+  .about-me-h3 {
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 88px;
+    color: #FF6B00;
+    margin: 120px 0 0 0 ;
+  }
+
+  .about-me-p {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F4F5F7;
+    margin: 24px 0 24px 0;
+  }
+
+  .about-me-button {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    border: none;
+
+    width: 161px;
+    height: 48px;
+    margin: 24px 0 0 0;
+    background-color: #ff6b00;
+  }
+
+  .line-image-about {
+    background-color: #fff;
+    height: 1px;
+    width: 327px;
+    margin: 209px 0 0 0;
+
+  }
+
+  .about-me-technologies {
+    border: dashed 2px seagreen;
+
+    margin: 136px 24px 0 24px;
+    height: 600px;
+    
+  }
+
+  .about-me-technologies > ul > li {
+    list-style: none;
+  }
+
+
+  
+
+.emoji {
+  font-size: 18px;
+  
+  color: transparent;
+  text-shadow: 0 0 0 #FF6B00;
 }
+
+.about-title-skill {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+  
+}
+
+
