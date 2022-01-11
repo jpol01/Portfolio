@@ -295,17 +295,17 @@
     <div class="contact-intro">
       <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
     </div>
-    <form action="" method="post">
+    <form action="#" method="post">
       <ul class="contact-main-list">
         <li class="li-fullname">
 
-          <input id="fullname" value="Full name" type="text">
+          <input id="fullname" placeholder="Full name" type="text" maxlength="30" required>
         </li>
         <li class="li-email">
-          <input id="email" value="Email address" type="text">
+          <input id="email" placeholder="Email address" type="email" required>
         </li>
         <li class="li-textarea">
-          <textarea id="message-textarea" value="Enter text here" cols="30" rows="10"></textarea>
+          <textarea id="message-textarea" placeholder="Enter text here" cols="30" rows="10" maxlength="500" required></textarea>
         </li>
         <li class="li-button">
           <button class="about-me-button">Get in touch</button>
