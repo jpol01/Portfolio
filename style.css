@@ -388,17 +388,15 @@ header > i {
   }
 
   .contact-form {
-    background-color: pink;
+   
     
-    /* margin:  350em 0 0 0 ; */
-    height: 900px;
+   
+   
 
   }
 
   .contact-main-list {
-    border: hotpink 1px dashed;
-
-    margin: 2px 2px 2px 2px;
+   
 
     display: flex;
     flex-direction: column;
