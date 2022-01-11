@@ -396,6 +396,9 @@ header > i {
 
   .contact-form {
     background-color: pink;
+    
+    margin:  305em 0 0 0 ;
     height: 900px;
+
   }
 }
