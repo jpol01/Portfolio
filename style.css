@@ -413,21 +413,28 @@ button:active {
 
 .contact-main-list li {
   width: 100%;
+  display: flex;
 }
 
-.contact-main-list input {
+.contact-main-list input,
+.contact-main-list textarea {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   border: 0;
   border-bottom: 1px solid #dbd8d7;
-  padding: 14px 0;
+  padding: 12px;
+  flex-grow: 1;
+  color: #979493;
+}
+
+.contact-main-list textarea {
+  background-color: #fbf8f7;
+  border: none;
+  color: #3c3a39;
 }
 
 .hidden {
