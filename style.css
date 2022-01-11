@@ -437,6 +437,10 @@ button:active {
   color: #3c3a39;
 }
 
+.li-button {
+  justify-content: center;
+}
+
 .hidden {
   visibility: hidden;
 }
