@@ -82,15 +82,8 @@ header > i {
   margin: 0 20px 0 0;
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) { */
   /* Previous Wroks */
-
-  .container-mega {
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr repeat(9, 1fr);
-  }
 
   .title-container {
     margin: 0 24px 0 24px;
@@ -397,8 +390,23 @@ header > i {
   .contact-form {
     background-color: pink;
     
-    margin:  305em 0 0 0 ;
+    /* margin:  350em 0 0 0 ; */
     height: 900px;
 
   }
-}
+
+  .contact-main-list {
+    border: hotpink 1px dashed;
+
+    margin: 2px 2px 2px 2px;
+
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
+/* } */
