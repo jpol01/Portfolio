@@ -393,4 +393,9 @@ header > i {
     color: #f4f1f0;
     background-color: #e05304;
   }
+
+  .contact-form {
+    background-color: pink;
+    height: 900px;
+  }
 }
