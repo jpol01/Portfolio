@@ -474,13 +474,12 @@ hr {
 }
 
 /* things to hide */
-  .header-menu {
-    display: none;
-  }
+.header-menu {
+  display: none;
+}
 
 /* dont change things above this mark */
 @media (min-width: 992px) {
-
   header {
     display: flex;
     justify-content: space-around;
@@ -521,7 +520,40 @@ hr {
   /* Presentation-introduction */
 
   .presentation1 {
-    display: flex;
-    justify-content: space-around;
+    background-color: #1c1a19;
+    background-image: url("images/background-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+
+  .presentation {
+    border: red dashed 1px;
+    width: 450px;
+    background-image: none;
+    background-color: transparent;
+  }
+
+  .presentation > h1 {
+    font-family: "Crete Round";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 81px;
+  }
+
+  .presentation > h4 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .presentation > p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
   }
 }
