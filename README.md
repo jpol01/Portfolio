@@ -2,7 +2,7 @@
 
 >Video showing the figma model, a comparison and the actual work done for this project
 
-#  Mobile Version (Adding Previous Works and the About me section)
+#  Mobile Version (Add a Contact Form and finish the mobile version)
 
 
 ![Alt Text](https://media.giphy.com/media/jxiEKqz3coq63bUoDk/giphy.gif)
@@ -23,7 +23,7 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This website is a mobile version. To get the best experience the min-width must to be 375px and a hegiht of 600px or more**
+**This website is a mobile version. To get the best experience the min-width must to be 375px and a hegiht of 800px or more**
 
 
 ## Authors

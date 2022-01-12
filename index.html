@@ -23,8 +23,9 @@
       rel="stylesheet"
     />
 
-    <title>Porfolio</title>
+    <title>Portfolio</title>
   </head>
+
   <body>
     <section class="header1">
       <header>
@@ -312,5 +313,94 @@
         </div>
       </div>
     </section>
+
+    <footer class="contact-form">
+      <div class="contact-intro">
+        <p>
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </p>
+      </div>
+      <form action="https://formspree.io/f/mayvwljj" method="post">
+        <ul class="contact-main-list">
+          <li class="li-fullname">
+            <input
+              id="fullname"
+              placeholder="Full name"
+              type="text"
+              maxlength="30"
+              name="name"
+              required
+            />
+          </li>
+          <li class="li-email">
+            <input
+              id="email"
+              placeholder="Email address"
+              type="email"
+              name="_replyto"
+              required
+            />
+          </li>
+          <li class="li-textarea">
+            <textarea
+              id="message-textarea"
+              placeholder="Enter text here"
+              cols="30"
+              rows="5"
+              maxlength="500"
+              name="message"
+              required
+            ></textarea>
+          </li>
+          <li class="li-button">
+            <button class="about-me-button" type="submit">Get in touch</button>
+          </li>
+        </ul>
+      </form>
+      <div class="icons">
+        <ul class="icons-footer">
+          <li>
+            <a href="https://github.com/jpol01"
+              ><img src="images/icons/icons-dark/git-dark.svg" alt="Github-img"
+            /></a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/jorge-polo-b00b44155/"
+              ><img
+                src="images/icons/icons-dark/linked-dark.svg"
+                alt="Linkin-image"
+            /></a>
+          </li>
+
+          <li>
+            <a href="https://angel.co/"
+              ><img
+                src="images/icons/icons-dark/angel-list-dark.svg"
+                alt="Angellist-website-image"
+            /></a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/Jpol1902"
+              ><img
+                src="images/icons/icons-dark/twitter-dark.svg"
+                alt="twitter-image"
+            /></a>
+          </li>
+
+          <li>
+            <a href="https://medium.com/"
+              ><img
+                class="medium"
+                src="images/icons/icons-dark/Medium-dark.svg"
+                alt="Medium-website-image"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <hr />
+    </footer>
   </body>
 </html>
