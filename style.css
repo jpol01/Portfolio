@@ -359,6 +359,10 @@ header > i {
   display: flex;
 }
 
+.icons-footer > li {
+  margin: 0 0 0 25px;
+}
+
 .about-me-languajes > ul > li {
   margin: 32px 0 0 0;
 }
@@ -456,10 +460,6 @@ button:active {
   justify-content: center;
   margin: 124px 0 0 -20px;
   padding-top: 25px;
-}
-
-.icons-footer {
-  display: flex;
   list-style: none;
 }
 
