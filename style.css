@@ -270,7 +270,6 @@ header > i {
   height: 2280px;
   background-color: #1c1a19;
   margin: 120px 0 0 0;
-  
 }
 
 .about-me-introduction {
@@ -448,4 +447,3 @@ button:active {
 .hidden {
   visibility: hidden;
 }
-
