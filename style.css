@@ -441,7 +441,6 @@ button:active {
 .contact-main-list textarea {
   background-color: #fbf8f7;
   border: none;
-
   color: #3c3a39;
 }
 
@@ -461,10 +460,6 @@ button:active {
   margin: 124px 0 0 -20px;
   padding-top: 25px;
   list-style: none;
-}
-
-.icons-footer > li {
-  margin: 0 0 0 25px;
 }
 
 hr {
