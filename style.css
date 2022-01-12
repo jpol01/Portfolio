@@ -354,6 +354,11 @@ header > i {
   text-align: center;
 }
 
+.contact-main-list li {
+  width: 100%;
+  display: flex;
+}
+
 .about-me-languajes > ul > li {
   margin: 32px 0 0 0;
 }
@@ -412,11 +417,6 @@ button:active {
   flex-direction: column;
   list-style: none;
   align-items: center;
-}
-
-.contact-main-list li {
-  width: 100%;
-  display: flex;
 }
 
 .contact-main-list input,
