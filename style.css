@@ -472,3 +472,45 @@ hr {
   height: 5px;
   margin: 20px 0 0 0;
 }
+
+/* things to hide */
+  .header-menu {
+    display: none;
+  }
+
+/* dont change things above this mark */
+@media (min-width: 992px) {
+
+  header {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .company {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .fas {
+    display: none;
+  }
+
+  .header-menu {
+    list-style: none;
+    display: flex;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+    color: #fff;
+  }
+
+  .header-menu li {
+    margin: 0 32px 0 0;
+  }
+}
