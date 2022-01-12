@@ -437,6 +437,7 @@ button:active {
 .contact-main-list textarea {
   background-color: #fbf8f7;
   border: none;
+
   color: #3c3a39;
 }
 
@@ -446,4 +447,33 @@ button:active {
 
 .hidden {
   visibility: hidden;
+}
+
+.icons-footer {
+  border-top: #dfe1e6 1px solid;
+  width: 375px;
+  display: flex;
+  justify-content: center;
+  margin: 124px 0 0 -20px;
+  padding-top: 25px;
+}
+
+.icons-footer {
+  display: flex;
+  list-style: none;
+}
+
+.icons-footer > li {
+  margin: 0 0 0 25px;
+}
+
+hr {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: #0d151e;
+  border-radius: 5px;
+  width: 134px;
+  height: 5px;
+  margin: 20px 0 0 0;
 }
