@@ -501,16 +501,27 @@ hr {
   .header-menu {
     list-style: none;
     display: flex;
-
-font-family: Inter;
-font-style: normal;
-font-weight: 600;
-font-size: 15px;
-line-height: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
     color: #fff;
   }
 
   .header-menu li {
     margin: 0 32px 0 0;
+  }
+
+  .fa-envelope {
+    width: 22px;
+    height: 18px;
+  }
+
+  /* Presentation-introduction */
+
+  .presentation1 {
+    display: flex;
+    justify-content: space-around;
   }
 }
