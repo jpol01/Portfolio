@@ -40,7 +40,7 @@ header > i {
 }
 
 .presentation {
-  height: 550px;
+  height: 650px;
   margin: 0 0 0 24px;
   padding: 120px 0 0 0;
   background-color: #1c1a19;
@@ -95,6 +95,12 @@ header > i {
   line-height: 52px;
   color: #1c1a19;
   margin: 0 0 25px 0;
+}
+
+.previous-works-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 88px;
 }
 
 .card-row1 {
@@ -264,6 +270,7 @@ header > i {
   height: 2280px;
   background-color: #1c1a19;
   margin: 120px 0 0 0;
+  
 }
 
 .about-me-introduction {
@@ -272,6 +279,7 @@ header > i {
   background-image: url("images/about-me-image.svg");
   background-repeat: no-repeat;
   background-position: 100% 100%;
+  padding: 120px 0 0 0;
 }
 
 .about-me-h3 {
@@ -281,7 +289,6 @@ header > i {
   font-size: 72px;
   line-height: 88px;
   color: #ff6b00;
-  margin: 120px 0 0 0;
 }
 
 .about-me-p {
