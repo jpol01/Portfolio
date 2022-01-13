@@ -472,3 +472,136 @@ hr {
   height: 5px;
   margin: 20px 0 0 0;
 }
+
+.header-menu {
+  display: none;
+}
+
+/* dont change things above this mark */
+@media (min-width: 992px) {
+
+  .header1{
+    height: 72px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 154px 0 154px;
+    padding: 20px 0 0 0;
+  }
+
+  .company {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .fas {
+    display: none;
+  }
+
+  .header-menu {
+    list-style: none;
+    display: flex;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+  }
+
+  .header-menu li {
+    margin: 0 32px 0 0;
+  }
+
+  .fa-envelope {
+    width: 22px;
+    height: 18px;
+  }
+
+  /* Presentation-introduction */
+
+  .container-main {
+    height: 870px;
+    
+  }
+  .presentation1 {
+    background-color: #1c1a19;
+    background-image: url("images/background-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+  }
+
+  .presentation {
+    width: 530px;
+    background-image: none;
+    background-color: transparent;
+    margin: 0 0 0 12%;
+
+    border: purple 2px dashed;
+  }
+
+  .presentation > h1 {
+    font-family: "Crete Round";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 81px;
+    margin: 70px 0 24px 0;
+    color: #F55800;
+  }
+
+  .presentation > h4 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    margin: 0 0 24px 0;
+    color: #fff;
+  }
+
+  .presentation > p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #F4F5F7;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 70px;
+    margin: -55% 0 0 0;
+  }
+
+  .icons > li {
+    margin: 0 0 20px 0;
+  }
+
+  .container-mega {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: .20fr 1fr;
+  }
+
+  .division {
+    margin: 0 12% 0 12%;
+  }
+
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .line-image {
+    width: 60%;
+  }
+}
