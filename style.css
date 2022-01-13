@@ -7,7 +7,6 @@
 }
 
 header {
-  margin: 0 24px 0 24px;
   padding: 10px 0 12px 0;
   background-color: #3c3a39;
   display: flex;
@@ -41,7 +40,6 @@ header > i {
 
 .presentation {
   height: 650px;
-  margin: 0 0 0 24px;
   padding: 120px 0 0 0;
   background-color: #1c1a19;
   background-image: url("images/illustration-header-mobile.svg");
@@ -106,6 +104,12 @@ header > i {
 .card-row1 {
   margin: 0 24px 0 24px;
 }
+
+.card-img-size {
+  width: 327px;
+  height: 237px;
+}
+
 
 .card1-h3 {
   font-family: "Crete Round", sans-serif;
@@ -522,6 +526,10 @@ hr {
     height: 18px;
   }
 
+  .fa-envelope {
+    display: none;
+  }
+
   /* Presentation-introduction */
 
   .container-main {
@@ -592,7 +600,7 @@ hr {
   }
 
   .division {
-    margin: 0 12% 0 12%;
+    margin: 0 12% 0 5%;
   }
 
   .title-container {
@@ -601,7 +609,65 @@ hr {
 
   }
 
+  .internal-title {
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
   .line-image {
     width: 60%;
   }
+
+  .card-row1 {
+    display: flex;
+    margin: 0 0 0 5% ;
+  }
+
+  .card-img-size {
+    width: 684px;
+    height: 448px;
+  }
+
+  .container-info-card1 {
+    margin: 0 0 0 2%;
+  }
+
+  .card1-h3 {
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .card1-p {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .technologies-card1 {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .container-grid-pworks {
+    margin: 0 0 0 4%;
+    display: grid;
+    grid-template-columns: repeat(3,369px);
+  }
+
+  .card-row1 {
+
+  }
+
+
 }
