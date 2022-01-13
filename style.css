@@ -479,10 +479,17 @@ hr {
 }
 
 /* dont change things above this mark */
-@media (min-width: 992px) {
+@media (min-width: 1440px) {
+
+  .header1{
+    height: 72px;
+  }
   header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    
+    margin: 0 154px 0 154px;
+    padding: 26px 0 0 0;
   }
 
   .company {
@@ -528,9 +535,13 @@ hr {
 
   .presentation {
     border: red dashed 1px;
-    width: 450px;
+    width: 530px;
     background-image: none;
     background-color: transparent;
+    margin: 0 0 0 140px;
+
+    
+  
   }
 
   .presentation > h1 {
@@ -539,6 +550,7 @@ hr {
     font-weight: normal;
     font-size: 72px;
     line-height: 81px;
+    margin: 70px 0 0 0;
   }
 
   .presentation > h4 {
@@ -555,5 +567,13 @@ hr {
     font-weight: normal;
     font-size: 20px;
     line-height: 32px;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 70px;
+    margin: -200px 0 0 0;
   }
 }
