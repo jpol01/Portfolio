@@ -482,7 +482,7 @@ hr {
 }
 
 /* dont change things above this mark */
-@media (min-width: 992px) {
+@media (min-width: 1240px) {
 
   .header1{
     height: 72px;
@@ -682,10 +682,16 @@ hr {
 
   .card-row2{
     border: red 3px dashed;
+    background-size: 100%;
   }
+
 
   .card-row3{
     border: red 3px dashed;
+  }
+
+  .card-row4{
+    border: rgb(0, 255, 13) 3px dashed;
   }
 
   .card-row5{
@@ -693,6 +699,10 @@ hr {
   }
 
   .card-row6{
+    border: red 3px dashed;
+  }
+
+  .card-row7{
     border: red 3px dashed;
   }
   }
