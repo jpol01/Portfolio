@@ -602,16 +602,17 @@ hr {
   }
 
   .division {
-    margin: 0 0 0 5%;
+   
     border: dashed 2px palegoldenrod;
     
   }
 
   .test-div {
-    border: 3px dashed rgb(175, 216, 25);
-    margin: 0 3% 0 0;
+    border: 3px dashed rgb(216, 38, 25);
+    margin: 0 5% 0 5%;
 
   }
+
   .title-container {
     display: flex;
     justify-content: space-between;
@@ -629,7 +630,7 @@ hr {
   }
 
   .line-image {
-    width: 66%;
+    width: 70%;
   }
 
   .previous-works-container {
@@ -641,6 +642,7 @@ hr {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
     border: 3px dashed pink;
+    margin: 0 5% 0 5%;
   }
 .container-info-card1 {
   border: dashed red 2px;
@@ -678,7 +680,6 @@ hr {
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
-  margin: 0 0 0 0;
 
   }
 
@@ -696,10 +697,10 @@ hr {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 37px 24px;
+    margin: 0 3% 0 3%;
   }
 
   .card-row2{
-    /* border: red 3px dashed; */
     background-size: 100%;
     background-image: url("images/card-image/card-image-desk/card-2.png");
     background-position: center bottom;
@@ -717,7 +718,15 @@ hr {
 
   .card-row3{
     border: red 3px dashed;
+    background-position: center bottom;
+    background-size: 100%;
     background-image: url("images/card-image/card-image-desk/calendar.png");
+
+  }
+
+  .inner-universal-div-2lines {
+    position: relative;
+    top: 4em;
   }
 
   .u-card-h3 {
@@ -728,13 +737,35 @@ hr {
     line-height: 44px;
   }
 
+  .u-card-p {
+    font-family: "Inter", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 24px;
+  }
+
 
   .card-row4{
     border: rgb(0, 255, 13) 3px dashed;
+    background-position: center bottom;
+    background-size: 100%;
+    background-image: url("images/card-image/card-image-desk/arco.png");
+    
+
   }
+
+  .inner-universal-div-1line {
+    position: relative;
+    top: 7em;
+  }
+
 
   .card-row5{
     border: red 3px dashed;
+    background-position: center bottom;
+    background-size: 100%;
+    background-image: url("images/card-image/card-image-desk/card2-shadow.png");
   }
 
   .card-row6{
