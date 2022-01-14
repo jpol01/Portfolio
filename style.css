@@ -600,13 +600,20 @@ hr {
   }
 
   .division {
-    margin: 0 12% 0 5%;
+    margin: 0 0 0 5%;
+    border: dashed 2px palegoldenrod;
+    
   }
 
+  .test-div {
+    border: 3px dashed rgb(175, 216, 25);
+    margin: 0 3% 0 0;
+  }
   .title-container {
     display: flex;
     justify-content: space-between;
-
+    padding: 0 0 0 0;
+    margin: 0 0 3.5% 0;
   }
 
   .internal-title {
@@ -618,17 +625,23 @@ hr {
   }
 
   .line-image {
-    width: 60%;
+    width: 66%;
   }
 
   .card-row1 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin: 0 0 0 5% ;
+    border: 3px dashed pink;
   }
-
+.container-info-card1 {
+  border: dashed red 2px;
+}
+  
   .card-img-size {
+    margin: 0 24px 0 0;
     width: 684px;
-    height: 448px;
+    height: 100%;
   }
 
   .container-info-card1 {
@@ -661,13 +674,27 @@ hr {
 
   .container-grid-pworks {
     margin: 0 0 0 4%;
+    border: palegoldenrod 3px dashed;
     display: grid;
-    grid-template-columns: repeat(3,369px);
+    grid-template-columns: repeat(3,1fr);
+    gap: 37px 24px;
   }
 
-  .card-row1 {
-
+  .card-row2{
+    border: red 3px dashed;
   }
 
+  .card-row3{
+    border: red 3px dashed;
+  }
+
+  .card-row5{
+    border: red 3px dashed;
+  }
+
+  .card-row6{
+    border: red 3px dashed;
+  }
+  }
 
 }
