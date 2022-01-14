@@ -770,11 +770,20 @@ line-height: 24px;
 
   .card-row6{
     border: red 3px dashed;
+    background-position: center bottom;
+    background-size: 100%;
+    background-image: url("images/card-image/card-image-desk/calendar.png");
   }
 
   .card-row7{
     border: red 3px dashed;
+    background-position: center bottom;
+    background-size: 100%;
+    background-image: url("images/card-image/card-image-desk/arco.png");
   }
+
+  .about-me-introduction {
+    background-image: url("");
   }
 
 }
