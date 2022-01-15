@@ -167,7 +167,6 @@ header > i {
   line-height: 24px;
   color: #fff;
   border: none;
-  width: 124px;
   padding: 12px;
   margin: 24px 0 0 0;
   background-color: #ff6b00;
@@ -251,6 +250,7 @@ header > i {
   background-color: #ff6b00;
 }
 
+
 .about-me-main {
   height: 2280px;
   background-color: #1c1a19;
@@ -299,7 +299,7 @@ header > i {
   background-color: #ff6b00;
 }
 
-.line-image-about {
+.line-division-aboutme-desk  {
   background-color: #fff;
   height: 1px;
   width: 327px;
@@ -645,6 +645,9 @@ hr {
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
     grid-row-gap: 36px;
+
+    height: 900px;
+    border: 2px dashed red;
   }
 
   .card-row2 {
