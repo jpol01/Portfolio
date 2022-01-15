@@ -749,7 +749,7 @@ hr {
     display: flex;
     flex-direction: column;
   }
-  
+
   .line-division-aboutme-desk {
     width: 93%;
     height: 1%;
@@ -804,4 +804,4 @@ hr {
     display: flex;
     justify-content: flex-start;
   }
- }
+}
