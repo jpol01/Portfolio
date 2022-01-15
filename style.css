@@ -645,7 +645,6 @@ hr {
 
   .card-row2 {
     background-size: cover;
-    background-position: center;
     background-image: url("images/card-image/card-image-desk/card2-shadow.png");
     background-position: center;
     cursor: pointer;
@@ -660,15 +659,6 @@ hr {
     z-index: 10;
   }
 
-  .card-row2:hover,
-  .card-row3:hover,
-  .card-row4:hover,
-  .card-row5:hover,
-  .card-row6:hover,
-  .card-row7:hover {
-    border: solid 2px black;
-  }
-
   .card-row2:hover .inner-universal-div-2lines,
   .card-row3:hover .inner-universal-div-2lines,
   .card-row4:hover .inner-universal-div-2lines,
@@ -676,10 +666,7 @@ hr {
   .card-row6:hover .inner-universal-div-2lines,
   .card-row7:hover .inner-universal-div-2lines {
     opacity: 0;
-   
   }
-
-
 
   .u-button-card {
     position: absolute;
@@ -752,6 +739,15 @@ hr {
   .card-row7:hover .u-button-card {
     transform: translateY(0);
     opacity: 1;
+  }
+
+  .card-row2:hover,
+  .card-row3:hover,
+  .card-row4:hover,
+  .card-row5:hover,
+  .card-row6:hover,
+  .card-row7:hover {
+    border: solid 2px black;
   }
 
   .about-me-introduction {
