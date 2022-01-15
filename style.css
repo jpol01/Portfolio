@@ -110,7 +110,6 @@ header > i {
   height: 237px;
 }
 
-
 .card1-h3 {
   font-family: "Crete Round", sans-serif;
   font-style: normal;
@@ -278,12 +277,16 @@ header > i {
 }
 
 .about-me-introduction {
-  margin: 0 24px 0 24px;
+  border:red dashed 2px;
+  margin: 0 0 0 5%;
   height: 550px;
+  padding: 120px 0 0 0;
+
+
   background-image: url("images/about-me-image.svg");
   background-repeat: no-repeat;
   background-position: 100% 100%;
-  padding: 120px 0 0 0;
+  
 }
 
 .about-me-h3 {
@@ -482,24 +485,18 @@ hr {
   display: none;
 }
 
-
-
 @media (max-width: 375px) {
   .hidden-375 {
     display: none;
   }
-
 }
 
-
-/* dont change things above this mark */
 @media (min-width: 1200px) {
-
   .have2-hidden {
     display: none;
   }
 
-  .header1{
+  .header1 {
     height: 72px;
   }
   header {
@@ -515,10 +512,6 @@ hr {
     font-weight: bold;
     font-size: 20px;
     line-height: 20px;
-  }
-
-  .fas {
-    display: none;
   }
 
   .header-menu {
@@ -545,10 +538,6 @@ hr {
     display: none;
   }
 
-  .container-main {
-    /* height: 870px; */
-    
-  }
   .presentation1 {
     background-color: #1c1a19;
     background-image: url("images/background-desktop.svg");
@@ -570,7 +559,7 @@ hr {
     font-size: 72px;
     line-height: 81px;
     margin: 70px 0 24px 0;
-    color: #F55800;
+    color: #f55800;
   }
 
   .presentation > h4 {
@@ -589,7 +578,7 @@ hr {
     font-weight: normal;
     font-size: 20px;
     line-height: 32px;
-    color: #F4F5F7;
+    color: #f4f5f7;
   }
 
   .icons {
@@ -632,13 +621,13 @@ hr {
     margin: 0 5% 0 5%;
   }
 
-.multipost-div {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  height: 85%;
-}
-  
+  .multipost-div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 85%;
+  }
+
   .card-img-size {
     margin: 0 24px 0 0;
     width: 100%;
@@ -663,7 +652,6 @@ hr {
     font-weight: normal;
     font-size: 20px;
     line-height: 28px;
-
   }
 
   .technologies-card1 {
@@ -677,16 +665,15 @@ hr {
   .container-grid-pworks {
     margin: 0 0 0 4%;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 37px 24px;
     margin: 0 3% 0 3%;
   }
 
-  .card-row2{
+  .card-row2 {
     background-size: 100%;
     background-image: url("images/card-image/card-image-desk/card-2.png");
     background-position: center bottom;
-
   }
 
   .u-button-card {
@@ -694,13 +681,11 @@ hr {
     top: 19em;
     height: 58px;
   }
-  
 
-  .card-row3{
+  .card-row3 {
     background-position: center bottom;
     background-size: 110%;
     background-image: url("images/card-image/card-image-desk/calendar.png");
-
   }
 
   .inner-universal-div-2lines {
@@ -718,13 +703,13 @@ hr {
 
   .u-card-p {
     font-family: "Inter", sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 17px;
-line-height: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
   }
 
-  .card-row4{
+  .card-row4 {
     background-position: center bottom;
     background-size: 110%;
     background-image: url("images/card-image/card-image-desk/arco.png");
@@ -735,19 +720,19 @@ line-height: 24px;
     top: 7em;
   }
 
-  .card-row5{
+  .card-row5 {
     background-position: center bottom;
     background-size: 110%;
     background-image: url("images/card-image/card-image-desk/card2-shadow.png");
   }
 
-  .card-row6{
+  .card-row6 {
     background-position: center bottom;
     background-size: 110%;
     background-image: url("images/card-image/card-image-desk/calendar.png");
   }
 
-  .card-row7{
+  .card-row7 {
     background-position: center bottom;
     background-size: 110%;
 
@@ -772,12 +757,11 @@ line-height: 24px;
   .buton-resume-div {
     display: flex;
     flex-direction: column;
-
   }
   .line-division-aboutme-desk {
-    width: 100%;
+    width: 93%;
     height: 1%;
-    margin: 11% 0 0 0;
+    margin: 11% 3% 0 3%;
   }
 
   .about-me-technologies {
@@ -809,28 +793,27 @@ line-height: 24px;
     line-height: 52px;
   }
 
-    .icons-desktop {
-      position: relative;
-      margin: 1em 0 0 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+  .icons-desktop {
+    position: relative;
+    margin: 1em 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .icons-footer { 
-      border-top: #DFE1E6 2px solid ;
-      width: 100%;
-      margin: 0 5% 0 0;
-    }
+  .icons-footer {
+    border-top: #dfe1e6 2px solid;
+    width: 100%;
+    margin: 0 5% 0 0;
+  }
 
-    .li-button {
-      display: flex;
-      justify-content: flex-start;
-    }
-   
-    .icons-desktop {
-      width: 100%;
-      margin: 10% 0 0 5%;
-     
-    }
+  .li-button {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .icons-desktop {
+    width: 100%;
+    margin: 10% 0 0 5%;
+  }
 }
