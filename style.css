@@ -35,7 +35,7 @@ header > i {
 }
 
 .presentation1 {
-  background-color: #1c1a19;
+  background-color: #1c1a19; 
 }
 
 .presentation {
@@ -45,6 +45,7 @@ header > i {
   background-image: url("images/illustration-header-mobile.svg");
   background-repeat: no-repeat;
   background-position: 100% 100%;
+
 }
 
 .presentation > h1 {
@@ -80,9 +81,12 @@ header > i {
   margin: 0 20px 0 0;
 }
 
+
 .title-container {
   margin: 0 24px 0 24px;
   padding: 120px 0 80px 0;
+
+  border: red 2px dashed;
 }
 
 .internal-title {
@@ -93,6 +97,15 @@ header > i {
   line-height: 52px;
   color: #1c1a19;
   margin: 0 0 25px 0;
+
+  border: red 2px dashed;
+}
+
+.line-image {
+  width: 100%;
+
+  border: red 2px dashed;
+
 }
 
 .previous-works-container {
@@ -106,8 +119,10 @@ header > i {
 }
 
 .card-img-size {
-  width: 327px;
-  height: 237px;
+  width: 100%;
+
+  /* width: 327px; */
+  /* height: 237px; */
 }
 
 .card1-h3 {
