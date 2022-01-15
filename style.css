@@ -483,7 +483,7 @@ hr {
 }
 
 /* dont change things above this mark */
-@media (min-width: 1240px) {
+@media (min-width: 992px) {
 
   .header1{
     height: 72px;
@@ -719,7 +719,7 @@ hr {
   .card-row3{
     border: red 3px dashed;
     background-position: center bottom;
-    background-size: 100%;
+    background-size: 110%;
     background-image: url("images/card-image/card-image-desk/calendar.png");
 
   }
@@ -749,7 +749,7 @@ line-height: 24px;
   .card-row4{
     border: rgb(0, 255, 13) 3px dashed;
     background-position: center bottom;
-    background-size: 100%;
+    background-size: 110%;
     background-image: url("images/card-image/card-image-desk/arco.png");
     
 
@@ -764,26 +764,109 @@ line-height: 24px;
   .card-row5{
     border: red 3px dashed;
     background-position: center bottom;
-    background-size: 100%;
+    background-size: 110%;
     background-image: url("images/card-image/card-image-desk/card2-shadow.png");
   }
 
   .card-row6{
     border: red 3px dashed;
     background-position: center bottom;
-    background-size: 100%;
+    background-size: 110%;
     background-image: url("images/card-image/card-image-desk/calendar.png");
   }
 
   .card-row7{
     border: red 3px dashed;
     background-position: center bottom;
-    background-size: 100%;
+    background-size: 110%;
+
     background-image: url("images/card-image/card-image-desk/arco.png");
   }
 
   .about-me-introduction {
-    background-image: url("");
+    border: 2px dashed magenta;
+    background-image: url("images/about-me-desktop.png");
+    background-position: 100% 45%;
   }
 
+  .about-me-main {
+    border: maroon 2px dashed;
+    height: 80%;
+    
+  }
+
+  .about-me-p {
+    font-size: 20px;
+    line-height: 32px;
+    width: 40%;
+  }
+
+  .buton-resume-div {
+    display: flex;
+    flex-direction: column;
+
+  }
+  .line-division-aboutme-desk {
+    width: 100%;
+    height: 2%;
+    margin: 11% 0 0 0;
+  }
+
+  .about-me-technologies {
+    border: dashed red 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: auto;
+    padding: 0 0 5% 0;
+    margin: 0 0 0 0;
+  }
+
+  .contact-form {
+    height: 40%;
+    margin: -10% 0 0 0;
+  }
+
+  .intro-contact-desktop {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1.6fr;
+    gap: 30px;
+  }
+
+  .contact-intro {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+    .icons-desktop {
+      position: relative;
+      margin: 1em 0 0 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .icons-footer { 
+      border: olive 2px dashed;
+      border-top: #DFE1E6 2px solid ;
+      width: 100%;
+      margin: 0 5% 0 0;
+    }
+
+    .li-button {
+      display: flex;
+      justify-content: flex-start;
+    }
+   
+    .icons-desktop {
+      border: pink 2px dashed;
+      width: 100%;
+      margin: 10% 0 0 5%;
+     
+    }
 }
