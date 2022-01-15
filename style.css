@@ -85,8 +85,6 @@ header > i {
 .title-container {
   margin: 0 24px 0 24px;
   padding: 120px 0 80px 0;
-
-  border: red 2px dashed;
 }
 
 .internal-title {
@@ -97,15 +95,11 @@ header > i {
   line-height: 52px;
   color: #1c1a19;
   margin: 0 0 25px 0;
-
-  border: red 2px dashed;
+  text-align: center;
 }
 
 .line-image {
   width: 100%;
-
-  border: red 2px dashed;
-
 }
 
 .previous-works-container {
@@ -115,14 +109,18 @@ header > i {
 }
 
 .card-row1 {
-  margin: 0 24px 0 24px;
+  margin: 0 4% 0 4%;
+
+  border: deepskyblue 2px dashed;
 }
 
 .card-img-size {
   width: 100%;
+}
 
-  /* width: 327px; */
-  /* height: 237px; */
+.container-info-card1 {
+text-align: center;
+  border: red 2px dashed;
 }
 
 .card1-h3 {
@@ -148,6 +146,7 @@ header > i {
 .technologies-card1 {
   list-style: none;
   display: flex;
+  justify-content: center;
 }
 
 .technologies-card1 > li {
@@ -176,12 +175,24 @@ header > i {
   background-color: #ff6b00;
 }
 
+.container-grid-pworks {
+  margin: 0 4% 0 4%;
+
+  border: firebrick 2px dashed;
+}
+
 .card-row2 {
   padding: 1px 0 0 0;
-  height: 410px;
-  margin: 24px 24px 0 24px;
   background-image: url("images/card-image/u-image-card.svg");
   background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  margin: 24px 24px 0 24px;
+  
+
+
+
+  border: rgb(145, 255, 20) dashed 2px;
 }
 
 .u-card-h3 {
@@ -208,6 +219,7 @@ header > i {
   list-style: none;
   margin: 12px 0 0 16px;
   display: flex;
+  justify-content: center;
 }
 
 .u-card-technologies > li {
@@ -238,10 +250,12 @@ header > i {
 
 .card-row3 {
   padding: 1px 0 0 0;
-  height: 410px;
   margin: 24px 24px 0 24px;
   background-image: url("images/card-image/u-image-card.svg");
   background-repeat: no-repeat;
+  background-size: 100%;
+
+  border: 2px dashed purple;
 }
 
 .card-row4 {
@@ -495,6 +509,78 @@ hr {
   display: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 375px) {
   .hidden-375 {
     display: none;
@@ -681,6 +767,8 @@ hr {
     background-size: 100%;
     background-image: url("images/card-image/card-image-desk/card-2.png");
     background-position: center top;
+
+
   }
 
   .card-row2:hover {
