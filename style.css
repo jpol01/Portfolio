@@ -283,7 +283,6 @@ header > i {
   background-image: url("images/about-me-image.svg");
   background-repeat: no-repeat;
   background-position: 100% 100%;
-  
 }
 
 .about-me-h3 {
@@ -496,6 +495,7 @@ hr {
   .header1 {
     height: 72px;
   }
+
   header {
     display: flex;
     justify-content: space-between;
@@ -504,7 +504,7 @@ hr {
   }
 
   .company {
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -514,7 +514,7 @@ hr {
   .header-menu {
     list-style: none;
     display: flex;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -529,10 +529,6 @@ hr {
   .fa-envelope {
     width: 22px;
     height: 18px;
-  }
-
-  .fa-envelope {
-    display: none;
   }
 
   .presentation1 {
@@ -550,7 +546,7 @@ hr {
   }
 
   .presentation > h1 {
-    font-family: "Crete Round";
+    font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 72px;
@@ -560,7 +556,7 @@ hr {
   }
 
   .presentation > h4 {
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -570,7 +566,7 @@ hr {
   }
 
   .presentation > p {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -660,7 +656,6 @@ hr {
   }
 
   .container-grid-pworks {
-    margin: 0 0 0 4%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 37px 24px;
@@ -732,7 +727,6 @@ hr {
   .card-row7 {
     background-position: center bottom;
     background-size: 110%;
-
     background-image: url("images/card-image/card-image-desk/arco.png");
   }
 
@@ -783,7 +777,7 @@ hr {
   }
 
   .contact-intro {
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -796,6 +790,8 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    margin: 10% 0 0 5%;
   }
 
   .icons-footer {
@@ -808,9 +804,5 @@ hr {
     display: flex;
     justify-content: flex-start;
   }
-
-  .icons-desktop {
-    width: 100%;
-    margin: 10% 0 0 5%;
-  }
+ 
 }
