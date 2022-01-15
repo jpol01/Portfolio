@@ -108,8 +108,6 @@ header > i {
 
 .card-row1 {
   margin: 0 4% 0 4%;
-
-  border: deepskyblue 2px dashed;
 }
 
 .card-img-size {
@@ -118,7 +116,6 @@ header > i {
 
 .container-info-card1 {
   text-align: center;
-  border: red 2px dashed;
 }
 
 .card1-h3 {
@@ -177,7 +174,6 @@ header > i {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-row-gap: 24px;
-  border: firebrick 2px dashed;
 }
 
 .card-row2,
@@ -194,7 +190,6 @@ header > i {
   background-size: 100%;
   text-align: center;
   margin: 0;
-  border: rgb(145, 255, 20) dashed 2px;
   overflow: hidden;
 }
 
@@ -469,7 +464,8 @@ hr {
 }
 
 @media (min-width: 992px) {
-  .have2-hidden {
+  .have2-hidden,
+  .menu-bar {
     display: none;
   }
 
@@ -645,9 +641,7 @@ hr {
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
     grid-row-gap: 36px;
-
     height: 900px;
-    border: 2px dashed red;
   }
 
   .card-row2 {
