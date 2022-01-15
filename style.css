@@ -174,8 +174,10 @@ header > i {
 }
 
 .container-grid-pworks {
-  margin: 0 4% 0 4%;
-
+  margin: 0 4%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-row-gap: 24px;
   border: firebrick 2px dashed;
 }
 
