@@ -277,12 +277,9 @@ header > i {
 }
 
 .about-me-introduction {
-  border:red dashed 2px;
   margin: 0 0 0 5%;
   height: 550px;
   padding: 120px 0 0 0;
-
-
   background-image: url("images/about-me-image.svg");
   background-repeat: no-repeat;
   background-position: 100% 100%;
