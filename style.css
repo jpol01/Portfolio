@@ -654,6 +654,10 @@ hr {
 
   .inner-universal-div-2lines {
     transition: all 0.3s ease-in-out;
+    position: absolute;
+    padding: 16px;
+    bottom: 0;
+    z-index: 10;
   }
 
   .card-row2:hover,
@@ -672,17 +676,10 @@ hr {
   .card-row6:hover .inner-universal-div-2lines,
   .card-row7:hover .inner-universal-div-2lines {
     opacity: 0;
+   
   }
 
-  .card-row2:hover .u-button-card,
-  .card-row3:hover .u-button-card,
-  .card-row4:hover .u-button-card,
-  .card-row5:hover .u-button-card,
-  .card-row6:hover .u-button-card,
-  .card-row7:hover .u-button-card {
-    transform: translateY(0);
-    opacity: 1;
-  }
+
 
   .u-button-card {
     position: absolute;
@@ -699,13 +696,6 @@ hr {
     background-position: center;
     background-size: cover;
     background-image: url("images/card-image/card-image-desk/calendar.png");
-  }
-
-  .inner-universal-div-2lines {
-    position: absolute;
-    padding: 16px;
-    bottom: 0;
-    z-index: 10;
   }
 
   .u-card-h3 {
@@ -752,6 +742,16 @@ hr {
     background-position: center;
     background-size: cover;
     background-image: url("images/card-image/card-image-desk/arco.png");
+  }
+
+  .card-row2:hover .u-button-card,
+  .card-row3:hover .u-button-card,
+  .card-row4:hover .u-button-card,
+  .card-row5:hover .u-button-card,
+  .card-row6:hover .u-button-card,
+  .card-row7:hover .u-button-card {
+    transform: translateY(0);
+    opacity: 1;
   }
 
   .about-me-introduction {
