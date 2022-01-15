@@ -35,7 +35,7 @@ header > i {
 }
 
 .presentation1 {
-  background-color: #1c1a19; 
+  background-color: #1c1a19;
 }
 
 .presentation {
@@ -45,7 +45,6 @@ header > i {
   background-image: url("images/illustration-header-mobile.svg");
   background-repeat: no-repeat;
   background-position: 100% 100%;
-
 }
 
 .presentation > h1 {
@@ -80,7 +79,6 @@ header > i {
 .icons > li {
   margin: 0 20px 0 0;
 }
-
 
 .title-container {
   margin: 0 24px 0 24px;
@@ -119,7 +117,7 @@ header > i {
 }
 
 .container-info-card1 {
-text-align: center;
+  text-align: center;
   border: red 2px dashed;
 }
 
@@ -170,7 +168,7 @@ text-align: center;
   color: #fff;
   border: none;
   width: 124px;
-  height: 48px;
+  padding: 12px;
   margin: 24px 0 0 0;
   background-color: #ff6b00;
 }
@@ -183,16 +181,14 @@ text-align: center;
 
 .card-row2 {
   padding: 1px 0 0 0;
+  position: relative;
   background-image: url("images/card-image/u-image-card.svg");
   background-repeat: no-repeat;
   background-size: 100%;
   text-align: center;
-  margin: 24px 24px 0 24px;
-  
-
-
-
+  margin: 0;
   border: rgb(145, 255, 20) dashed 2px;
+  overflow: hidden;
 }
 
 .u-card-h3 {
@@ -202,7 +198,6 @@ text-align: center;
   font-size: 32px;
   line-height: 44px;
   color: #fff;
-  margin: 84px 16px 0 16px;
 }
 
 .u-card-p {
@@ -212,14 +207,14 @@ text-align: center;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  margin: 12px 16px 0 16px;
+  margin: 12px 0;
 }
 
 .u-card-technologies {
   list-style: none;
-  margin: 12px 0 0 16px;
+  margin: 12px 0 0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .u-card-technologies > li {
@@ -243,51 +238,68 @@ text-align: center;
   color: #ffff;
   border: none;
   width: 100%;
-  height: 48px;
+  padding: 12px;
   margin: 30px 0 0 0;
   background-color: #ff6b00;
 }
 
 .card-row3 {
   padding: 1px 0 0 0;
-  margin: 24px 24px 0 24px;
+  margin: 0;
   background-image: url("images/card-image/u-image-card.svg");
   background-repeat: no-repeat;
   background-size: 100%;
-
   border: 2px dashed purple;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .card-row4 {
   padding: 1px 0 0 0;
   height: 410px;
-  margin: 24px 24px 0 24px;
+  margin: 0;
   background-image: url("images/card-image/u-image-card.svg");
   background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card-row4 {
 }
 
 .card-row5 {
   padding: 1px 0 0 0;
   height: 410px;
-  margin: 24px 24px 0 24px;
+  margin: 0;
   background-image: url("images/card-image/u-image-card.svg");
   background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .card-row6 {
   padding: 1px 0 0 0;
   height: 410px;
-  margin: 24px 24px 0 24px;
+  margin: 0;
   background-image: url("images/card-image/u-image-card.svg");
   background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .card-row7 {
   padding: 1px 0 0 0;
   height: 410px;
-  margin: 24px 24px 0 24px;
+  margin: 0;
   background-image: url("images/card-image/u-image-card.svg");
   background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .card-row8 {
@@ -509,78 +521,6 @@ hr {
   display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 375px) {
   .hidden-375 {
     display: none;
@@ -711,14 +651,15 @@ hr {
   .card-row1 {
     display: grid;
     grid-template-columns: 1.5fr 1fr;
-    margin: 0 5% 0 5%;
+    margin: 0 4%;
   }
 
   .multipost-div {
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
     height: 85%;
+    text-align: left;
+    align-items: baseline;
   }
 
   .card-img-size {
@@ -761,36 +702,73 @@ hr {
   .container-grid-pworks {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 36px;
   }
 
   .card-row2 {
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     background-image: url("images/card-image/card-image-desk/card-2.png");
-    background-position: center top;
-
-
+    background-position: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
   }
 
-  .card-row2:hover {
+  .inner-universal-div-2lines {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .card-row2:hover,
+  .card-row3:hover,
+  .card-row4:hover,
+  .card-row5:hover,
+  .card-row6:hover,
+  .card-row7:hover {
     border: solid 2px black;
-    cursor: pointer;
+  }
+
+  .card-row2:hover .inner-universal-div-2lines,
+  .card-row3:hover .inner-universal-div-2lines,
+  .card-row4:hover .inner-universal-div-2lines,
+  .card-row5:hover .inner-universal-div-2lines,
+  .card-row6:hover .inner-universal-div-2lines,
+  .card-row7:hover .inner-universal-div-2lines {
+    opacity: 0;
+  }
+
+  .card-row2:hover .u-button-card,
+  .card-row3:hover .u-button-card,
+  .card-row4:hover .u-button-card,
+  .card-row5:hover .u-button-card,
+  .card-row6:hover .u-button-card,
+  .card-row7:hover .u-button-card {
+    transform: translateY(0);
+    opacity: 1;
   }
 
   .u-button-card {
-    position: relative;
-    top: 19em;
-    height: 58px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 12px;
+    margin: 0;
+    transform: translateY(100%);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
   }
 
   .card-row3 {
-    background-position: center top;
-    background-size: 110%;
+    background-position: center;
+    background-size: cover;
     background-image: url("images/card-image/card-image-desk/calendar.png");
   }
 
   .inner-universal-div-2lines {
-    position: relative;
-    top: 4em;
+    position: absolute;
+    padding: 16px;
+    bottom: 0;
+    z-index: 10;
   }
 
   .u-card-h3 {
@@ -810,31 +788,32 @@ hr {
   }
 
   .card-row4 {
-    background-position: center bottom;
-    background-size: 110%;
+    background-position: center;
+    background-size: cover;
     background-image: url("images/card-image/card-image-desk/arco.png");
   }
 
   .inner-universal-div-1line {
-    position: relative;
-    top: 7em;
+    position: absolute;
+    padding: 16px;
+    bottom: 0;
   }
 
   .card-row5 {
-    background-position: center bottom;
-    background-size: 110%;
+    background-position: center;
+    background-size: cover;
     background-image: url("images/card-image/card-image-desk/card2-shadow.png");
   }
 
   .card-row6 {
-    background-position: center bottom;
-    background-size: 110%;
+    background-position: center;
+    background-size: cover;
     background-image: url("images/card-image/card-image-desk/calendar.png");
   }
 
   .card-row7 {
-    background-position: center bottom;
-    background-size: 110%;
+    background-position: center;
+    background-size: cover;
     background-image: url("images/card-image/card-image-desk/arco.png");
   }
 
