@@ -2,7 +2,7 @@
 
 
 #  Mobile and Desktop Version (Application deploy): for this project we have to Deploy our website using GitHub Pages
-
+ 
 
 ![Alt Text](https://media.giphy.com/media/7CTX0mS641nGXcpSHr/giphy.gif)
 
@@ -49,7 +49,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- etc,etc
 
 ## 📝 License
 
