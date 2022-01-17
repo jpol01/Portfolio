@@ -1,11 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
->Video showing the figma model, a comparison and the actual work done for this project
 
-#  Mobile Version (Add a Contact Form and finish the mobile version)
+#  Mobile and Desktop Version (Application deploy): for this project we have to Deploy our website using GitHub Pages
 
 
-![Alt Text](https://media.giphy.com/media/jxiEKqz3coq63bUoDk/giphy.gif)
+![Alt Text](https://media.giphy.com/media/7CTX0mS641nGXcpSHr/giphy.gif)
 
 
 Additional description about the project and its features.
@@ -23,7 +22,7 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This website is a mobile version. To get the best experience the min-width must to be 375px and a hegiht of 800px or more**
+**This website is a desktop and mobile version project of the figma template #2. Only need a regular browser to see it.**
 
 
 ## Authors
