@@ -731,6 +731,17 @@ hr {
     background-image: url("images/card-image/card-image-desk/arco.png");
   }
 
+  .card-row2,
+  .card-row3,
+  .card-row4,
+  .card-row5,
+  .card-row6,
+  .card-row7 {
+    transform: translateY(0);
+    opacity: 1;
+    border: solid 2px  transparent;
+  }
+
   .card-row2:hover .u-button-card,
   .card-row3:hover .u-button-card,
   .card-row4:hover .u-button-card,
@@ -740,7 +751,7 @@ hr {
     transform: translateY(0);
     opacity: 1;
   }
-
+  
   .card-row2:hover,
   .card-row3:hover,
   .card-row4:hover,
