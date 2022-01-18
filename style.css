@@ -4,6 +4,8 @@
   background-origin: border-box;
   width: auto;
   height: auto;
+
+
 }
 
 header {
@@ -167,6 +169,9 @@ header > i {
   padding: 12px;
   margin: 24px 0 0 0;
   background-color: #ff6b00;
+
+  -webkit-text-stroke: 1px black;
+  /* color: transparent; */
 }
 
 .container-grid-pworks {
