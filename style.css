@@ -55,7 +55,7 @@ header > i {
   margin: 0 0 12px 0;
 }
 
-.presentation > h4 {
+.presentation > h2 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 24px;
@@ -160,9 +160,9 @@ header > i {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 22px;
   line-height: 24px;
-  color: #fff;
+  color: #1e1e1e;
   border: none;
   padding: 12px;
   margin: 24px 0 0 0;
@@ -235,9 +235,9 @@ header > i {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 17px;
+  font-size: 22px;
   line-height: 24px;
-  color: #ffff;
+  color: #1e1e1e;
   border: none;
   width: 100%;
   padding: 12px;
@@ -285,7 +285,7 @@ header > i {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #fff;
+  color: #1e1e1e;
   border: none;
   width: 161px;
   height: 48px;
@@ -368,7 +368,7 @@ header > i {
 }
 
 button:hover {
-  color: #f55800;
+  color: #aa4711;
   background-color: #fff5e1;
   border: 1px solid #f55800;
 }
@@ -406,7 +406,7 @@ button:active {
 .contact-main-list textarea {
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 15px;
   line-height: 24px;
   margin-bottom: 24px;
@@ -414,7 +414,7 @@ button:active {
   border-bottom: 1px solid #dbd8d7;
   padding: 12px;
   flex-grow: 1;
-  color: #979493;
+  color: #0e0401;
 }
 
 .contact-main-list textarea {
@@ -496,10 +496,9 @@ hr {
     font-size: 15px;
     line-height: 20px;
     color: #fff;
-    
   }
 
-   a {
+  a {
     text-decoration: none;
     color: white;
   }
@@ -537,7 +536,7 @@ hr {
     color: #f55800;
   }
 
-  .presentation > h4 {
+  .presentation > h2 {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -745,7 +744,7 @@ hr {
   .card-row7 {
     transform: translateY(0);
     opacity: 1;
-    border: solid 2px  transparent;
+    border: solid 2px transparent;
   }
 
   .card-row2:hover .u-button-card,
@@ -757,7 +756,7 @@ hr {
     transform: translateY(0);
     opacity: 1;
   }
-  
+
   .card-row2:hover,
   .card-row3:hover,
   .card-row4:hover,
