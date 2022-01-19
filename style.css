@@ -162,7 +162,7 @@ header > i {
   font-weight: bold;
   font-size: 22px;
   line-height: 24px;
-  color: #1E1E1E;
+  color: #1e1e1e;
   border: none;
   padding: 12px;
   margin: 24px 0 0 0;
@@ -237,7 +237,7 @@ header > i {
   font-weight: 700;
   font-size: 22px;
   line-height: 24px;
-  color: #1E1E1E;
+  color: #1e1e1e;
   border: none;
   width: 100%;
   padding: 12px;
@@ -285,7 +285,7 @@ header > i {
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  color: #1E1E1E;
+  color: #1e1e1e;
   border: none;
   width: 161px;
   height: 48px;
@@ -368,7 +368,7 @@ header > i {
 }
 
 button:hover {
-  color: #AA4711;
+  color: #aa4711;
   background-color: #fff5e1;
   border: 1px solid #f55800;
 }
