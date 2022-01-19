@@ -4,8 +4,6 @@
   background-origin: border-box;
   width: auto;
   height: auto;
-
-
 }
 
 header {
@@ -408,7 +406,7 @@ button:active {
 .contact-main-list textarea {
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 15px;
   line-height: 24px;
   margin-bottom: 24px;
@@ -416,7 +414,7 @@ button:active {
   border-bottom: 1px solid #dbd8d7;
   padding: 12px;
   flex-grow: 1;
-  color: #979493;
+  color: #0e0401;
 }
 
 .contact-main-list textarea {
@@ -498,10 +496,9 @@ hr {
     font-size: 15px;
     line-height: 20px;
     color: #fff;
-    
   }
 
-   a {
+  a {
     text-decoration: none;
     color: white;
   }
@@ -747,7 +744,7 @@ hr {
   .card-row7 {
     transform: translateY(0);
     opacity: 1;
-    border: solid 2px  transparent;
+    border: solid 2px transparent;
   }
 
   .card-row2:hover .u-button-card,
@@ -759,7 +756,7 @@ hr {
     transform: translateY(0);
     opacity: 1;
   }
-  
+
   .card-row2:hover,
   .card-row3:hover,
   .card-row4:hover,
