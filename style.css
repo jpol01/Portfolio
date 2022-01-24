@@ -441,7 +441,7 @@ button:active {
   list-style: none;
 }
 
-hr {
+.last-line {
   display: flex;
   justify-content: center;
   align-self: center;
@@ -878,4 +878,16 @@ hr {
   right: 38px;
   width: 12px;
   height:12px;
+}
+
+.orion {
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 44px;
+display: flex;
+align-items: center;
+color: #FFF5E1;
 }
