@@ -296,8 +296,8 @@ header > i {
 .line-division-aboutme-desk {
   background-color: #fff;
   height: 1px;
-  width: 327px;
-  margin: 209px 0 0 0;
+  width: 97%;
+  margin: 70% 0 0 0;
 }
 
 .about-me-technologies {
@@ -859,6 +859,7 @@ button:active {
 .overlay-content {
   margin: 100px 0 0 0;
   padding: 0 24px 0 24px
+  scroll-behavior: smooth;
 }
 
 .overlay-content a {
