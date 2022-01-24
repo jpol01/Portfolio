@@ -841,3 +841,41 @@ hr {
     justify-content: flex-start;
   }
 }
+
+
+
+.overlay {  
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #3c3a39; 
+  overflow-x: hidden; 
+  transition: 0.5s;
+}
+
+.overlay-content {
+  margin: 100px 0 0 0;
+  padding: 0 24px 0 24px
+}
+
+.overlay-content a {
+  padding: 24px 0 15px 16px;
+  text-decoration: none;
+  font-size: 32px;
+  color: #fff5e1;
+  display: block;
+}
+ 
+.overlay .closebtn {
+  position: absolute;
+  top: 62px;
+  font-size: 32px;
+  text-decoration: none;
+  color: #fff5e1;
+  right: 38px;
+  width: 12px;
+  height:12px;
+}
