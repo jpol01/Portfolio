@@ -851,8 +851,8 @@ button:active {
   z-index: 1;
   left: 0;
   top: 0;
-  background-color: #3c3a39; 
-  overflow-x: hidden; 
+  background-color: #3c3a39;
+  overflow-x: hidden;
   transition: 0.5s;
 }
 
@@ -869,7 +869,7 @@ button:active {
   color: #fff5e1;
   display: block;
 }
- 
+
 .overlay .closebtn {
   position: absolute;
   top: 62px;
@@ -878,16 +878,16 @@ button:active {
   color: #fff5e1;
   right: 38px;
   width: 12px;
-  height:12px;
+  height: 12px;
 }
 
 .orion {
-font-family: Inter;
-font-style: normal;
-font-weight: bold;
-font-size: 32px;
-line-height: 44px;
-display: flex;
-align-items: center;
-color: #FFF5E1;
+  font-family: "Inter";
+  font-style: normal; 
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color:#fff5e1;
 }
