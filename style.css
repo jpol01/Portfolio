@@ -842,7 +842,7 @@ button:active {
   }
 }
 
-.overlay {  
+.overlay {
   height: 0;
   width: 100%;
   position: fixed;
@@ -880,12 +880,12 @@ button:active {
 }
 
 .orion {
-  font-family: "Inter";
-  font-style: normal; 
+  font-family: "Inter","sans-serif";
+  font-style: normal;
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
   display: flex;
   align-items: center;
-  color:#fff5e1;
+  color: #fff5e1;
 }
