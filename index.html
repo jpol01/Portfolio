@@ -15,6 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&display=swap" rel="stylesheet" />
 
+  
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8STG08DKST"></script>
 <script>
@@ -36,7 +37,7 @@
 
       <nav>
         <div class="menu-bar ">
-          <i class="fas fa-bars"></i>
+          <i onclick="openNav()" class="fas fa-bars"></i>
         </div>
         <ul class="header-menu">
           <li>  <a href="#portfolio0101">  Portfolio </a></li>
@@ -46,6 +47,22 @@
         </ul>
       </nav>
     </header>
+
+    <div id="myNav" class="overlay">
+
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    
+      <div class="overlay-content">
+        <a href="#portfolio0101" onclick="closeNav()" class="orion">Portfolio</a>
+        <hr>
+        <a href="#aboutme-0101" onclick="closeNav()" class="orion">About</a>
+        <hr>
+        <a href="#contact0101" onclick="closeNav()" class="orion">Contact</a>
+        <hr>
+      </div>
+    
+    </div>
+
   </section>
 
   <section class="container-main">
@@ -368,9 +385,9 @@
         </li>
       </ul>
     </div>
-    <hr class="have2-hidden" />
+    <hr class="have2-hidden last-line" />
   </footer>
-
+  <script src="javascript.js"></script>
 </body>
 
 </html>

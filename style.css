@@ -296,8 +296,8 @@ header > i {
 .line-division-aboutme-desk {
   background-color: #fff;
   height: 1px;
-  width: 327px;
-  margin: 209px 0 0 0;
+  width: 97%;
+  margin: 70% 0 0 0;
 }
 
 .about-me-technologies {
@@ -441,7 +441,7 @@ button:active {
   list-style: none;
 }
 
-hr {
+.last-line {
   display: flex;
   justify-content: center;
   align-self: center;
@@ -840,4 +840,52 @@ hr {
     display: flex;
     justify-content: flex-start;
   }
+}
+
+.overlay {
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #3c3a39;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  margin: 100px 0 0 0;
+  padding: 0 24px 0 24px;
+  scroll-behavior: smooth;
+}
+
+.overlay-content a {
+  padding: 24px 0 15px 16px;
+  text-decoration: none;
+  font-size: 32px;
+  color: #fff5e1;
+  display: block;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 62px;
+  font-size: 32px;
+  text-decoration: none;
+  color: #fff5e1;
+  right: 38px;
+  width: 12px;
+  height: 12px;
+}
+
+.orion {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
 }
