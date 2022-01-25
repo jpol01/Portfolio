@@ -1,4 +1,3 @@
-
 function openNav() {
   document.querySelector('#myNav').style.height = '100%';
 }
