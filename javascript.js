@@ -8,9 +8,8 @@ function closeNav() {
 
 //new
 
-
 const project0 = {
-  title: 'Profesional Art<br>Printing Data',
+  title: 'Profesional Art Printing Data',
   paragraph: `A daily selection of privately personalized reads;
    no accounts or sign-ups required. has been the industry's standard`,
   tecnologies: ['HTML', 'Bootstrap', 'Ruby'],
@@ -26,7 +25,7 @@ const project0 = {
 };
 
 const project1 = {
-  title: 'Profesional Art<br>Printing Data',
+  title: 'Profesional Art Printing Data',
   paragraph: `A daily selection of privately personalized reads;
    no accounts or sign-ups required. has been the industry's standard`,
   tecnologies: ['HTML', 'Bootstrap', 'Ruby'],
@@ -42,7 +41,7 @@ const project1 = {
 };
 
 const project2 = {
-  title: 'Profesional Art<br>Printing Data',
+  title: 'Profesional Art Printing Data',
   paragraph: `A daily selection of privately personalized reads;
    no accounts or sign-ups required. has been the industry's standard`,
   tecnologies: ['HTML', 'Bootstrap', 'Ruby'],
@@ -58,7 +57,7 @@ const project2 = {
 };
 
 const project3 = {
-  title: 'Profesional Art<br>Printing Data',
+  title: 'Profesional Art Printing Data',
   paragraph: `A daily selection of privately personalized reads;
    no accounts or sign-ups required. has been the industry's standard`,
   tecnologies: ['HTML', 'Bootstrap', 'Ruby'],
@@ -74,7 +73,7 @@ const project3 = {
 };
 
 const project4 = {
-  title: 'Profesional Art<br>Printing Data',
+  title: 'Profesional Art Printing Data',
   paragraph: `A daily selection of privately personalized reads;
    no accounts or sign-ups required. has been the industry's standard`,
   tecnologies: ['HTML', 'Bootstrap', 'Ruby'],
@@ -90,7 +89,7 @@ const project4 = {
 };
 
 const project5 = {
-  title: 'Profesional Art<br>Printing Data',
+  title: 'Profesional Art Printing Data',
   paragraph: `A daily selection of privately personalized reads;
    no accounts or sign-ups required. has been the industry's standard`,
   tecnologies: ['HTML', 'Bootstrap', 'Ruby'],
@@ -137,7 +136,7 @@ const projectsArray = [
 function popup(num) {
   document.getElementById('popup').innerHTML = `
   <div class="darkpage"></div>
-  <div class="popup-container">
+  <div class="popup-container" >
     <button id="close-popup" class="close-pu" type="button">&times;</button>
     <h3 class="works-title-2 title-pu">${projectsArray[num].title}</h3>
     <ul class="ul-p ul-pu">  
@@ -145,8 +144,10 @@ function popup(num) {
       <li class="li-p li-pu">${projectsArray[num].tecnologies[1]}</li>  
       <li class="li-p li-pu">${projectsArray[num].tecnologies[2]}</li>
     </ul>
+    <div class="flex-popup">
     <img class="popup-img" src=${projectsArray[num].imagepopup}
     alt="popup image" width="311" height="220"></img>
+    <div class="popup-right">
     <p class="p-Project p-popup">${projectsArray[num].popupdescription}</p>
     <div class="popup-btn-container">
     <button type="button" class="popup-btn" href=${projectsArray[num].live}>
@@ -154,15 +155,23 @@ function popup(num) {
     <button type="button" class="popup-btn btn-ml" href=${projectsArray[num].source}>
     See Source <i class="fab fa-github darkicon" title="github icon"></i></button>
     </div>
+    </div>
+    </div>
   </div>`;
- 
+
+  document.querySelector('html').style.overflow = 'hidden';
   const startpopup = document.getElementById('popup');
   function erase() {
     while (startpopup.firstChild) {
       startpopup.removeChild(startpopup.lastChild);
     }
+    document.querySelector('html').style.overflow = 'scroll';
   }
 
+  document.getElementById('close-popup').addEventListener('click', () => {
+    erase();
+  });
+}
 document.getElementById('recentWork').innerHTML = `
 <img class="img-works" width="327" height="237" alt="works image" src=${projectsArray[6].image}>
 <div class="works-info">
@@ -174,7 +183,7 @@ document.getElementById('recentWork').innerHTML = `
   <li class="li2">${projectsArray[6].tecnologies[2]}</li>
   <li class="li2">${projectsArray[6].tecnologies[3]}</li>
 </ul>
-<button type="button" class="see-project-btn">See Project</button>
+<button type="button" id="btn-project-work" class="see-project-btn">See Project</button>
 </div>`;
 
 document.getElementById('projects').innerHTML = `
@@ -187,7 +196,7 @@ document.getElementById('projects').innerHTML = `
   <li class="li-p">${projectsArray[0].tecnologies[1]}</li>
   <li class="li-p">${projectsArray[0].tecnologies[2]}</li>
 </ul>
-<button type="button" class="btn-p">See Project</button>
+<button type="button" id="btn-project-1" class="btn-p">See Project</button>
 </section>
 
  
@@ -200,7 +209,7 @@ document.getElementById('projects').innerHTML = `
   <li class="li-p">${projectsArray[1].tecnologies[1]}</li>
   <li class="li-p">${projectsArray[1].tecnologies[2]}</li>
 </ul>
-<button type="button" class="btn-p">See Project</button>
+<button type="button" id="btn-project-2" class="btn-p">See Project</button>
 </section>
 
  
@@ -213,7 +222,7 @@ document.getElementById('projects').innerHTML = `
   <li class="li-p">${projectsArray[2].tecnologies[1]}</li>
   <li class="li-p">${projectsArray[2].tecnologies[2]}</li>
 </ul>
-<button type="button" class="btn-p">See Project</button>
+<button type="button" id="btn-project-3" class="btn-p">See Project</button>
 </section>
 
 
@@ -226,7 +235,7 @@ document.getElementById('projects').innerHTML = `
   <li class="li-p">${projectsArray[3].tecnologies[1]}</li>
   <li class="li-p">${projectsArray[3].tecnologies[2]}</li>
 </ul>
-<button type="button" class="btn-p">See Project</button>
+<button type="button" id="btn-project-4" class="btn-p">See Project</button>
 </section>
 
 
@@ -239,7 +248,7 @@ document.getElementById('projects').innerHTML = `
   <li class="li-p">${projectsArray[4].tecnologies[1]}</li>
   <li class="li-p">${projectsArray[4].tecnologies[2]}</li>
 </ul>
-<button type="button" class="btn-p">See Project</button>
+<button type="button" id="btn-project-5" class="btn-p">See Project</button>
 </section>
 
 <section class="Project-6" id="project-6"> 
@@ -251,7 +260,7 @@ document.getElementById('projects').innerHTML = `
   <li class="li-p">${projectsArray[5].tecnologies[1]}</li>
   <li class="li-p">${projectsArray[5].tecnologies[2]}</li>
 </ul>
-<button type="button" class="btn-p">See Project</button>
+<button type="button" id="btn-project-6" class="btn-p">See Project</button>
 </section>`;
 
 document.getElementById('project-1').style.backgroundImage = projectsArray[0].image;
@@ -261,31 +270,24 @@ document.getElementById('project-4').style.backgroundImage = projectsArray[3].im
 document.getElementById('project-5').style.backgroundImage = projectsArray[4].image;
 document.getElementById('project-6').style.backgroundImage = projectsArray[5].image;
 
-document.getElementById('close-popup').addEventListener('click', () => {
-  erase();
-});
-}
-
 document.getElementById('btn-project-1').addEventListener('click', () => {
-popup(0);
+  popup(0);
 });
 document.getElementById('btn-project-2').addEventListener('click', () => {
-popup(1);
+  popup(1);
 });
 document.getElementById('btn-project-3').addEventListener('click', () => {
-popup(2);
+  popup(2);
 });
 document.getElementById('btn-project-4').addEventListener('click', () => {
-popup(3);
+  popup(3);
 });
 document.getElementById('btn-project-5').addEventListener('click', () => {
-popup(4);
+  popup(4);
 });
 document.getElementById('btn-project-6').addEventListener('click', () => {
-popup(5);
+  popup(5);
 });
 document.getElementById('btn-project-work').addEventListener('click', () => {
-popup(6);
+  popup(6);
 });
-
-
