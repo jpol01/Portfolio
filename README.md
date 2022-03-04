@@ -1,4 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
 #  Mobile and Desktop Version (Application deploy): for this project we have to Deploy our website using GitHub Pages
